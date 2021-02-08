@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivityDois">
+    <ImageView
+            android:layout_gravity="center"
+            android:layout_width="88dp"
+            android:foregroundGravity="center"
+            android:layout_height="54dp" app:srcCompat="@drawable/alert" android:id="@+id/imageView3"/>
+    <TableLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center">
+            <TextView
+                    android:gravity="center"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Os resultados mostrados aqui são baseados em dados tabelados.\nBusque um profissional para um resultado mais qualificado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/black"
+              android:text="Aproximadamente você deve comer por dia: \n\nEm Kilo calorias e gramas (KCal/g)"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:layout_marginTop="25dp"
+              android:textColor="@color/black"
+              android:textSize="20dp"
+              android:text="Carboidrato:"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:id="@+id/Carboidratos"
+              android:layout_marginTop="1dp"
+              android:textSize="15dp"
+              android:textColor="@color/black"
+              android:text=""
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:textSize="20dp"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/black"
+              android:text="Gordura:"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:id="@+id/Gorduras"
+              android:layout_marginTop="1dp"
+              android:textSize="15dp"
+              android:textColor="@color/black"
+              android:text=""
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:layout_marginTop="10dp"
+              android:textSize="20dp"
+              android:textColor="@color/black"
+              android:text="Proteína:"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:id="@+id/Proteinas"
+              android:layout_marginBottom="15dp"
+              android:textSize="15dp"
+              android:layout_marginTop="1dp"
+              android:textColor="@color/black"
+              android:text=""
+              android:layout_height="wrap_content"/>
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:layout_marginTop="10dp"
+              android:textSize="20dp"
+              android:textColor="@color/black"
+              android:text="Calorias diárias:"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:id="@+id/caloriasTotais"
+              android:layout_marginBottom="15dp"
+              android:textSize="15dp"
+              android:layout_marginTop="1dp"
+              android:textColor="@color/black"
+              android:text=""
+              android:layout_height="wrap_content"/>
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:layout_marginTop="10dp"
+              android:textSize="20dp"
+              android:textColor="@color/black"
+              android:text="Taxa de Metabolismo barsal (TMB):"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              android:gravity="center"
+              android:id="@+id/tmb"
+              android:layout_marginBottom="15dp"
+              android:textSize="15dp"
+              android:layout_marginTop="1dp"
+              android:textColor="@color/black"
+              android:text=""
+              android:layout_height="wrap_content" tools:ignore="DuplicateIds"/>
+    <Button android:layout_width="155dp" android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="Fazer outro"
+            android:id="@+id/btnVoltar"/>
+
+</LinearLayout>
